@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusVibe - College Event Management</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header / Navbar -->
+<header>
+    <div class="logo">Campus<span>Vibe</span></div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="#contact" class="cta-btn">Register Now</a>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Experience the Ultimate College Fests</h1>
+        <p>Discover, participate, and create unforgettable memories with upcoming technical, cultural, and sports events.</p>
+        <a href="#events" class="btn-primary">Explore Events</a>
+    </div>
+</section>
+
+<!-- Events Section -->
+<section id="events" class="events-section">
+    <h2>Upcoming Events</h2>
+    <div class="events-grid">
+        <!-- Event Card 1 -->
+        <div class="event-card">
+            <div class="event-badge tech">Tech</div>
+            <div class="event-info">
+                <h3>HackMatrix 2026</h3>
+                <p class="date">📅 March 15, 2026 | ⏰ 10:00 AM</p>
+                <p>Showcase your coding skills in a 24-hour hackathon and win exciting cash prizes.</p>
+                <a href="#contact" class="btn-card">Register</a>
+            </div>
+        </div>
+
+        <!-- Event Card 2 -->
+        <div class="event-card">
+            <div class="event-badge cultural">Cultural</div>
+            <div class="event-info">
+                <h3>Rhythms - Annual Fest</h3>
+                <p class="date">📅 March 22, 2026 | ⏰ 5:00 PM</p>
+                <p>Dance, music, and drama competitions to let your inner artist shine on stage.</p>
+                <a href="#contact" class="btn-card">Register</a>
+            </div>
+        </div>
+
+        <!-- Event Card 3 -->
+        <div class="event-card">
+            <div class="event-badge sports">Sports</div>
+            <div class="event-info">
+                <h3>Inter-College Colosseum</h3>
+                <p class="date">📅 April 05, 2026 | ⏰ 8:00 AM</p>
+                <p>Compete in football, basketball, esports, and track events for the championship trophy.</p>
+                <a href="#contact" class="btn-card">Register</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact / Registration Section -->
+<section id="contact" class="contact-section">
+    <h2>Get in Touch / Register</h2>
+    <p>Have questions or want to register a team? Drop us a message!</p>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your College Email" required>
+        <select required>
+            <option value="" disabled selected>Select Event</option>
+            <option value="hackathon">HackMatrix 2026</option>
+            <option value="cultural">Rhythms - Annual Fest</option>
+            <option value="sports">Inter-College Colosseum</option>
+        </select>
+        <textarea placeholder="Your Message or Team Details" rows="4" required></textarea>
+        <button type="submit" class="btn-primary">Submit Form</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 CampusVibe College Event Management. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
